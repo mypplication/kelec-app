@@ -1,0 +1,113 @@
+/*
+  Localizable.strings
+  MyRenaultPlus
+
+  Created by Kelyaenn Lundberg on 23/09/2023.
+  
+*/
+/* No comment provided by engineer. */
+" %@" = "%@";
+
+/* No comment provided by engineer. */
+" | %lldkm" = "| %lldkm";
+
+/* No comment provided by engineer. */
+"--h--" = "--h--";
+
+/* No comment provided by engineer. */
+"%" = "%";
+
+/* No comment provided by engineer. */
+"% | " = "% |";
+
+/* No comment provided by engineer. */
+"%@" = "%@";
+
+/* No comment provided by engineer. */
+"%lld" = "%lld";
+
+/* No comment provided by engineer. */
+"%lld km" = "%lld km";
+
+/* No comment provided by engineer. */
+"%lld%%" = "%lld%%";
+
+/* No comment provided by engineer. */
+"%lldh%@%lld" = "%lldh%@%lld";
+
+/* No comment provided by engineer. */
+"| %lld km " = "| %lld km ";
+
+/* No comment provided by engineer. */
+"| %lldkm" = "| %lldkm";
+
+/* No comment provided by engineer. */
+"Ajoutez un véhicule sur l'appli sur iPhone" = "Legg til et kjøretøy i appen på iPhone";
+
+/* No comment provided by engineer. */
+"error" = "error";
+
+/* No comment provided by engineer. */
+"Impossible de se connecter au serveur" = "Kan ikke koble til serveren";
+
+/* No comment provided by engineer. */
+"Impossible de se connecter au serveur %@" = "Kan ikke koble til serveren %@";
+
+/* No comment provided by engineer. */
+"Ouvrez l'appli sur l'iPhone pour synchroniser" = "Åpne appen på iPhonen din for å synkronisere";
+
+/* No comment provided by engineer. */
+"Rafraîchir" = "Oppdater";
+
+/* No comment provided by engineer. */
+"Regroupe les informations de votre Renault E-Tech sur votre écran d'accueil" = "Grupperer Renault E-Tech-informasjonen din på startskjermen";
+
+/* No comment provided by engineer. */
+"Regroupe les informations de votre Renault E-Tech sur votre écran de verrouillage" = "Grupperer Renault E-Tech-informasjonen din på låseskjermen";
+
+/* No comment provided by engineer. */
+"Renault E-Tech" = "Renault E-Tech";
+
+/* No comment provided by engineer. */
+"Vous devez d'abord sélectionner une voiture sur l'appli" = "Du må først velge en bil i appen";
+
+/* No comment provided by engineer. */
+"Vous devez d'abord vous connecter sur l'appli" = "Du må først logge inn i appen";
+
+"CHARGE PLANIFIÉE | " = "LADING ER PLANLAGT |  ";
+
+"CHARGE TERMINÉE | " = "LADING FULLFØRT | ";
+
+"EN CHARGE | " = "LADER | ";
+
+"NE CHARGE PAS | " = "LADER IKKE | ";
+
+"Demain" = "I morgen";
+
+"Aujourd'hui" = "I dag";
+
+"BLUE" = "BLÅ";
+
+"WHITE" = "HVIT";
+
+"RED" = "RØD";
+
+"informationSent" = "Informasjon sendt";
+
+"preHeatLaunched" = "Aktiv forvarming";
+
+"error" = "Error";
+
+"commandSendError" = "Feil ved sending av kommando til server. Prøv på nytt senere.";
+
+"Car" = "Bil";
+
+"launchPreHeat"= "Start forvarmingen";
+
+"launchPreHeat ${car}" = "Start forvarmingen ${car}";
+
+"areYouSureYouWantToLaunchPreheating" = "Er du sikker på at du vil starte forvarmingen?";
+
+"confirm" = "Bekrefte";
+
+"cancel" = "Kansellere";

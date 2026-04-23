@@ -1,0 +1,31 @@
+[
+    {
+        "chargeStartDate": "2023-11-21T20:39:16Z",
+        "chargeEndDate": "2023-11-22T03:06:48Z",
+        "chargeDuration": 388,
+        "chargeStartBatteryLevel": 39,
+        "chargeEndBatteryLevel": 81,
+        "chargeEnergyRecovered": 23.2,
+        "chargeEndStatus": "ok",
+        "mileageAtStart": 1234,
+        "inaccurateMileage": true
+    },
+    {
+        "chargeStartDate": "2023-12-22T17:50:43Z",
+        "chargeEndDate": "2023-12-22T18:45:30Z",
+        "chargeDuration": 55,
+        "chargeStartBatteryLevel": 73,
+        "chargeEndBatteryLevel": 79,
+        "chargeEnergyRecovered": 50.0,
+        "chargeEndStatus": "ok"
+    },
+    {
+        "chargeStartDate": "2023-12-23T14:59:12Z",
+        "chargeEndDate": "2023-12-24T00:01:25Z",
+        "chargeDuration": 543,
+        "chargeStartBatteryLevel": 44,
+        "chargeEndBatteryLevel": 100,
+        "chargeEnergyRecovered": 32.25,
+        "chargeEndStatus": "ok"
+    }
+]

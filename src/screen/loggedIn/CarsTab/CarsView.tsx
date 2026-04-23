@@ -1,0 +1,87 @@
+import React, { useContext, useMemo, useRef, useState } from 'react';
+import { Animated, View, SafeAreaView, useColorScheme, StyleSheet } from 'react-native';
+import { getMainInterfaceBackground } from '../../../lib/graphics/utils';
+import MainContext from '../../../lib/Contexts/MainContext';
+import CarsPageView from './CarsPageView';
+import CarsViewContext from '../../../lib/Contexts/CarsViewContext';
+import Text from '../../Common/CustomText';
+
+function CarsView(): React.JSX.Element {
+    const isDarkMode = useColorScheme() === 'dark';
+
+    // get current user
+    const { currentUser } = useContext(MainContext);
+
+
+    // to show an overlay when a modal is open
+    const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
+    const darkOverlayOpacity = useRef(new Animated.Value(0)).current;
+
+    const getCurrentView = () => {
+        if (currentUser.getCars().length == 0) {
+            return (
+                <SafeAreaView>
+                    <Text>No car</Text>
+                </SafeAreaView>
+            )
+        } else {
+            return <CarsPageView />;
+        }
+    };
+
+    const handleModalAnim = (open: boolean) => {
+        if (open) {
+            setIsModalOpen(true);
+            Animated.timing(darkOverlayOpacity, {
+                toValue: 0.8,
+                duration: 200,
+                useNativeDriver: true
+            }).start();
+        } else {
+            Animated.timing(darkOverlayOpacity, {
+                toValue: 0,
+                duration: 200,
+                useNativeDriver: true
+            }).start(() => {
+                setIsModalOpen(false);
+            });
+        }
+
+    }
+
+    const carsViewContextValues = useMemo(() => ({
+        handleModalAnim
+    }), []);
+
+
+    return (
+        <CarsViewContext.Provider value={carsViewContextValues}>
+            <View testID='carsView' style={styles.container}>
+                <View style={[styles.flex, styles.fullWidth, { backgroundColor: getMainInterfaceBackground(isDarkMode) }]}>
+                    {getCurrentView()}
+                </View>
+                {/* overlay when modal is open */}
+                {isModalOpen && (
+                    <Animated.View style={{ width: '100%', height: '100%', backgroundColor: 'rgb(50,50,50)', position: 'absolute', zIndex: 1, opacity: darkOverlayOpacity }} />
+                )}
+            </View >
+        </CarsViewContext.Provider>
+    );
+}
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        height: '100%',
+        width: '100%',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    flex: {
+        flex: 1
+    },
+    fullWidth: {
+        width: '100%'
+    }
+});
+export default CarsView;

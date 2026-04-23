@@ -1,0 +1,107 @@
+/* No comment provided by engineer. */
+" %@" = "%@";
+
+/* No comment provided by engineer. */
+" | %lldkm" = "| %lldkm";
+
+/* No comment provided by engineer. */
+"--h--" = "--h--";
+
+/* No comment provided by engineer. */
+"%" = "%";
+
+/* No comment provided by engineer. */
+"% | " = "% |";
+
+/* No comment provided by engineer. */
+"%@" = "%@";
+
+/* No comment provided by engineer. */
+"%lld" = "%lld";
+
+/* No comment provided by engineer. */
+"%lld km" = "%lld km";
+
+/* No comment provided by engineer. */
+"%lld%%" = "%lld%%";
+
+/* No comment provided by engineer. */
+"%lldh%@%lld" = "%lldh%@%lld";
+
+/* No comment provided by engineer. */
+"| %lld km " = "| %lld km ";
+
+/* No comment provided by engineer. */
+"| %lldkm" = "| %lldkm";
+
+/* No comment provided by engineer. */
+"Ajoutez un véhicule sur l'appli sur iPhone" = "Añadir un vehículo a la aplicación en iPhone";
+
+/* No comment provided by engineer. */
+"error" = "error";
+
+/* No comment provided by engineer. */
+"Impossible de se connecter au serveur" = "Imposible conectar ahora con servidor";
+
+/* No comment provided by engineer. */
+"Impossible de se connecter au serveur %@" = "Imposible conectar ahora con servidor %@";
+
+/* No comment provided by engineer. */
+"Ouvrez l'appli sur l'iPhone pour synchroniser" = "Abra la aplicación en el iPhone para sincronizar";
+
+/* No comment provided by engineer. */
+"Rafraîchir" = "Actualizar";
+
+/* No comment provided by engineer. */
+"Regroupe les informations de votre Renault E-Tech sur votre écran d'accueil" = "Muestra información sobre su E-Tech Renault en su pantalla de inicio";
+
+/* No comment provided by engineer. */
+"Regroupe les informations de votre Renault E-Tech sur votre écran de verrouillage" = "Muestra información sobre su E-Tech Renault en su pantalla de bloqueo";
+
+/* No comment provided by engineer. */
+"Renault E-Tech" = "Renault E-Tech";
+
+/* No comment provided by engineer. */
+"Vous devez d'abord sélectionner une voiture sur l'appli" = "Primero debes añadir un vehículo en la aplicación.";
+
+/* No comment provided by engineer. */
+"Vous devez d'abord vous connecter sur l'appli" = "
+Primero debes iniciar sesión en la aplicación.";
+
+"CHARGE PLANIFIÉE | " = "CARGA PROGRAMADA | ";
+
+"CHARGE TERMINÉE | " = "CARGA FINALIZADA | ";
+
+"EN CHARGE | " = "CARGANDO | ";
+
+"NE CHARGE PAS | " = "NO CARGA | ";
+
+"Demain" = "Mañana";
+
+"Aujourd'hui" = "Hoy";
+
+"BLUE" = "AZUL";
+
+"WHITE" = "BLANCO";
+
+"RED" = "ROJO";
+
+"informationSent" = "Información enviada";
+
+"preHeatLaunched" = "Pre-acondicionamiento empezado";
+
+"error" = "Error";
+
+"commandSendError" = "Error enviando comando al servidor";
+
+"Car" = "Coche";
+
+"launchPreHeat"= "Comenzar el pre-acondicionamiento";
+
+"launchPreHeat ${car}"= "Comenzar el pre-acondicionamiento ${car}";
+
+"areYouSureYouWantToLaunchPreheating" = "¿Está seguro de que desea iniciar el pre-acondicionamiento?";
+
+"confirm" = "Confirmar";
+
+"cancel" = "Cancelar";

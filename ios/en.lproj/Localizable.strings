@@ -1,0 +1,106 @@
+/* No comment provided by engineer. */
+" %@" = "%@";
+
+/* No comment provided by engineer. */
+" | %lldkm" = "| %lldkm";
+
+/* No comment provided by engineer. */
+"--h--" = "--h--";
+
+/* No comment provided by engineer. */
+"%" = "%";
+
+/* No comment provided by engineer. */
+"% | " = "% |";
+
+/* No comment provided by engineer. */
+"%@" = "%@";
+
+/* No comment provided by engineer. */
+"%lld" = "%lld";
+
+/* No comment provided by engineer. */
+"%lld km" = "%lld km";
+
+/* No comment provided by engineer. */
+"%lld%%" = "%lld%%";
+
+/* No comment provided by engineer. */
+"%lldh%@%lld" = "%lldh%@%lld";
+
+/* No comment provided by engineer. */
+"| %lld km " = "| %lld km ";
+
+/* No comment provided by engineer. */
+"| %lldkm" = "| %lldkm";
+
+/* No comment provided by engineer. */
+"Ajoutez un véhicule sur l'appli sur iPhone" = "Add a vehicle on the app on the iPhone";
+
+/* No comment provided by engineer. */
+"error" = "error";
+
+/* No comment provided by engineer. */
+"Impossible de se connecter au serveur" = "Impossible to connect to server";
+
+/* No comment provided by engineer. */
+"Impossible de se connecter au serveur %@" = "Impossible to connect to server %@";
+
+/* No comment provided by engineer. */
+"Ouvrez l'appli sur l'iPhone pour synchroniser" = "Open app on the iPhone to sync";
+
+/* No comment provided by engineer. */
+"Rafraîchir" = "Refresh";
+
+/* No comment provided by engineer. */
+"Regroupe les informations de votre Renault E-Tech sur votre écran d'accueil" = "Displays information about your E-Tech Renault on your Home Screen";
+
+/* No comment provided by engineer. */
+"Regroupe les informations de votre Renault E-Tech sur votre écran de verrouillage" = "Displays information about your E-Tech Renault on your Lock Screen";
+
+/* No comment provided by engineer. */
+"Renault E-Tech" = "Renault E-Tech";
+
+/* No comment provided by engineer. */
+"Vous devez d'abord sélectionner une voiture sur l'appli" = "You must add a vehicle on the app first";
+
+/* No comment provided by engineer. */
+"Vous devez d'abord vous connecter sur l'appli" = "You must log in on the app first";
+
+"CHARGE PLANIFIÉE | " = "SCHEDULED CHARGE | ";
+
+"CHARGE TERMINÉE | " = "ENDED CHARGE | ";
+
+"EN CHARGE | " = "CHARGING | ";
+
+"NE CHARGE PAS | " = "NOT CHARGING | ";
+
+"Demain" = "Tomorrow";
+
+"Aujourd'hui" = "Today";
+
+"BLUE" = "BLUE";
+
+"WHITE" = "WHITE";
+
+"RED" = "RED";
+
+"informationSent" = "Information sent";
+
+"preHeatLaunched" = "Pre-heating launched";
+
+"error" = "Error";
+
+"commandSendError" = "Error while sending command to server. Please try again later.";
+
+"Car" = "Car";
+
+"launchPreHeat"= "Launch pre-heating";
+
+"launchPreHeat ${car}"= "Launch pre-heating ${car}";
+
+"areYouSureYouWantToLaunchPreheating" = "Are you sure you want to launch pre-heating?";
+
+"confirm" = "Confirm";
+
+"cancel" = "Cancel";

@@ -1,0 +1,29 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Renault/NouvelRBold.ttf",
+      "sha1": "50f4344b27d76865aa4576189fc7b10f7a39965f"
+    },
+    {
+      "path": "assets/fonts/Renault/NouvelRBook.ttf",
+      "sha1": "097fe24a78f8145970d122052d2b8a2e5cb35a99"
+    },
+    {
+      "path": "assets/fonts/Renault/NouvelRExtrabold.ttf",
+      "sha1": "4b77dafc52dd8366688cc93bd0fdfdae3bd3314d"
+    },
+    {
+      "path": "assets/fonts/Renault/NouvelRLight.ttf",
+      "sha1": "f42c5a075e6533e39f268838c1ae976be1abe58a"
+    },
+    {
+      "path": "assets/fonts/Renault/NouvelRRegular.ttf",
+      "sha1": "61590b9a21188672bdfc63a098369ef2530693a7"
+    },
+    {
+      "path": "assets/fonts/Renault/NouvelRSemibold.ttf",
+      "sha1": "497c3f38b9444cc850ad76e15ae98c3ec64f50e3"
+    }
+  ]
+}

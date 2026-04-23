@@ -1,0 +1,53 @@
+[
+    {
+        "chargeStartDate": "2023-12-21T20:39:16Z",
+        "chargeDuration": 388,
+        "chargeStartBatteryLevel": 39,
+        "chargeEndBatteryLevel": 81,
+        "chargeEnergyRecovered": 23.1999989,
+        "chargeEndStatus": "ok"
+    },
+    {
+        "chargeStartDate": "2023-12-22T17:50:43Z",
+        "chargeEndDate": "2023-12-22T17:51:30Z",
+        "chargeDuration": 0,
+        "chargeStartBatteryLevel": 73,
+        "chargeEndBatteryLevel": 79,
+        "chargeEnergyRecovered": 3.0,
+        "chargeEndStatus": "ok"
+    },
+    {
+        "chargeStartDate": "2023-12-23T14:59:12Z",
+        "chargeEndDate": "2023-12-24T00:01:25Z",
+        "chargeStartBatteryLevel": 44,
+        "chargeEndBatteryLevel": 100,
+        "chargeEnergyRecovered": 0,
+        "chargeEndStatus": "ok"
+    },
+    {
+        "chargeStartDate": "2023-12-23T14:59:12Z",
+        "chargeEndDate": "2023-12-24T00:01:25Z",
+        "chargeDuration": 543,
+        "chargeStartBatteryLevel": 44,
+        "chargeEndBatteryLevel": 100,
+        "chargeEnergyRecovered": 0,
+        "chargeEndStatus": "ok"
+    },
+    {
+        "chargeStartDate": "2023-12-23T14:59:12Z",
+        "chargeEndDate": "2023-12-24T00:01:25Z",
+        "chargeDuration": 543,
+        "chargeStartBatteryLevel": 44,
+        "chargeEndBatteryLevel": 100,
+        "chargeEndStatus": "ok"
+    },
+    {
+        "chargeStartDate": "2023-12-23T14:59:12Z",
+        "chargeEndDate": "2023-12-24T00:01:25Z",
+        "chargeDuration": 543,
+        "chargeStartBatteryLevel": 44,
+        "chargeEndBatteryLevel": 100,
+        "chargeEnergyRecovered": 10,
+        "chargeEndStatus": "ok"
+    }
+]

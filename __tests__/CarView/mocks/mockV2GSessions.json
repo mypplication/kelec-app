@@ -1,0 +1,82 @@
+{
+  "_pagination": {
+    "pageState": "mNM0idc2nuEwSS%2FEeOSmZ0XyDcD90RGGQj3qVMqtp5uKGmdUW70oYIYDt%2BIvemkvhgm1zQELjaD6krnSJr7VqlSn5LGUwI3lfteUAnmLy6nR%2BNtE2yBvJrdnNkEJRxlU5sPLGaOeSI4Uo8dKMIxACnhZlZm74rgQxzEoaSxD5nwoBEh0uV76X9HozSi%2FkFaxxKRgb5fim6%2BMv00ZnG4PsQ%3D%3D",
+    "pageSize": 100
+  },
+  "_embedded": {
+    "sessions": [
+      {
+        "personId": "personId",
+        "vin": "VIN",
+        "sessionId": "97cda65c-4cbb-4886-95de-e79fe37d8ab2",
+        "contractId": "CTC32331441",
+        "peId": "PBX-0010213",
+        "ocppTransactionId": "1084633112",
+        "startDateTime": "2025-06-10T18:44:57Z",
+        "endDateTime": "2025-06-10T19:16:31Z",
+        "totalSessionDuration": 1894,
+        "nonSmartChargeSessionDuration": 2,
+        "smartChargeSessionDuration": 1860,
+        "socMinReachedDateTime": "2025-06-10T18:44:58Z",
+        "totalEnergyRecovered": 0.752,
+        "energyDischarged": 0.001,
+        "nonSmartEnergyRecovered": 0.0,
+        "smartEnergyRecovered": 0.752,
+        "energyMobility": 0.751,
+        "sessionStartBatteryLevel": 58.0,
+        "sessionEndBatteryLevel": 58.0,
+        "co2Saving": 0.0,
+        "earnedFlexCoins": 0.52,
+        "status": "OK"
+      },
+      {
+        "personId": "personId",
+        "vin": "VIN",
+        "sessionId": "36fd7b89-5743-45b6-9d55-80ddb4ed6835",
+        "contractId": "CTC32331441",
+        "peId": "PBX-0010213",
+        "ocppTransactionId": "2073058759",
+        "startDateTime": "2025-06-10T18:24:19Z",
+        "endDateTime": "2025-06-10T18:44:33Z",
+        "totalSessionDuration": 1215,
+        "nonSmartChargeSessionDuration": 3,
+        "smartChargeSessionDuration": 1200,
+        "socMinReachedDateTime": "2025-06-10T18:24:22Z",
+        "totalEnergyRecovered": 0.108,
+        "energyDischarged": 0.0,
+        "nonSmartEnergyRecovered": 0.0,
+        "smartEnergyRecovered": 0.108,
+        "energyMobility": 0.108,
+        "sessionStartBatteryLevel": 58.0,
+        "sessionEndBatteryLevel": 58.0,
+        "co2Saving": 0.0,
+        "earnedFlexCoins": 0.33,
+        "status": "OK"
+      },
+      {
+        "personId": "personId",
+        "vin": "VIN",
+        "sessionId": "70a761db-e7f8-4165-b47c-dde0d6362312",
+        "contractId": "CTC32331441",
+        "peId": "PBX-0010213",
+        "ocppTransactionId": "1111968188",
+        "startDateTime": "2025-06-10T19:31:00Z",
+        "endDateTime": "2025-06-11T07:16:13Z",
+        "totalSessionDuration": 42314,
+        "nonSmartChargeSessionDuration": 2,
+        "smartChargeSessionDuration": 42300,
+        "socMinReachedDateTime": "2025-06-10T19:31:02Z",
+        "totalEnergyRecovered": 46.347,
+        "energyDischarged": 30.311,
+        "nonSmartEnergyRecovered": 0.0,
+        "smartEnergyRecovered": 46.347,
+        "energyMobility": 16.036,
+        "sessionStartBatteryLevel": 59.0,
+        "sessionEndBatteryLevel": 78.0,
+        "co2Saving": 0.0,
+        "earnedFlexCoins": 11.75,
+        "status": "OK"
+      }
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+/*
+  Localizable.strings
+  MyRenaultPlus
+
+  Created by Kelyaenn Lundberg on 23/09/2023.
+  
+*/
+/* No comment provided by engineer. */
+" %@" = "%@";
+
+/* No comment provided by engineer. */
+" | %lldkm" = "| %lldkm";
+
+/* No comment provided by engineer. */
+"--h--" = "--h--";
+
+/* No comment provided by engineer. */
+"%" = "%";
+
+/* No comment provided by engineer. */
+"% | " = "% |";
+
+/* No comment provided by engineer. */
+"%@" = "%@";
+
+/* No comment provided by engineer. */
+"%lld" = "%lld";
+
+/* No comment provided by engineer. */
+"%lld km" = "%lld km";
+
+/* No comment provided by engineer. */
+"%lld%%" = "%lld%%";
+
+/* No comment provided by engineer. */
+"%lldh%@%lld" = "%lldh%@%lld";
+
+/* No comment provided by engineer. */
+"| %lld km " = "| %lld km ";
+
+/* No comment provided by engineer. */
+"| %lldkm" = "| %lldkm";
+
+/* No comment provided by engineer. */
+"Ajoutez un véhicule sur l'appli sur iPhone" = "Dodajte vozilo v aplikacijo na iPhonu";
+
+/* No comment provided by engineer. */
+"error" = "error";
+
+/* No comment provided by engineer. */
+"Impossible de se connecter au serveur" = "Ni mogoče vzpostaviti povezave s strežnikom";
+
+/* No comment provided by engineer. */
+"Impossible de se connecter au serveur %@" = "Ni mogoče vzpostaviti povezave s strežnikom %@";
+
+/* No comment provided by engineer. */
+"Ouvrez l'appli sur l'iPhone pour synchroniser" = "Odprite aplikacijo na svojem iPhonu za sinhronizacijo";
+
+/* No comment provided by engineer. */
+"Rafraîchir" = "Osveži";
+
+/* No comment provided by engineer. */
+"Regroupe les informations de votre Renault E-Tech sur votre écran d'accueil" = "Združite podatke o svojem vozilu Renault E-Tech na začetnem zaslonu";
+
+/* No comment provided by engineer. */
+"Regroupe les informations de votre Renault E-Tech sur votre écran de verrouillage" = "Združite podatke o svojem vozilu Renault E-Tech na zaklenjenem zaslonu";
+
+/* No comment provided by engineer. */
+"Renault E-Tech" = "Renault E-Tech";
+
+/* No comment provided by engineer. */
+"Vous devez d'abord sélectionner une voiture sur l'appli" = "Najprej morate v aplikaciji izbrati avto";
+
+/* No comment provided by engineer. */
+"Vous devez d'abord vous connecter sur l'appli" = "Najprej se morate prijaviti v aplikacijo";
+
+"CHARGE PLANIFIÉE | " = "NAČRTOVANO POLNJENJE | ";
+
+"CHARGE TERMINÉE | " = "POLNJENJE ZAKLJUČENO | ";
+
+"EN CHARGE | " = "POLNJENJE | ";
+
+"NE CHARGE PAS | " = "SE NE POLNI | ";
+
+"Demain" = "Jutri";
+
+"Aujourd'hui" = "Danes";
+
+"BLUE" = "MODRA";
+
+"WHITE" = "BELA";
+
+"RED" = "RDEČA";
+
+"informationSent" = "Poslane informacije";
+
+"preHeatLaunched" = "Aktivno predgrevanje";
+
+"error" = "Napaka";
+
+"commandSendError" = "Napaka pri pošiljanju ukaza na strežnik. Poskusite znova pozneje.";
+
+"Car" = "Avto";
+
+"launchPreHeat"= "Začnite s predgrevanjem";
+
+"launchPreHeat ${car}" = "Začnite s predgrevanjem ${car}";
+
+"areYouSureYouWantToLaunchPreheating" = "Ali ste prepričani, da želite začeti s predgrevanjem?";
+
+"confirm" = "Potrdi";
+
+"cancel" = "Prekliči";

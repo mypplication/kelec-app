@@ -1,0 +1,106 @@
+/* No comment provided by engineer. */
+" %@" = "%@";
+
+/* No comment provided by engineer. */
+" | %lldkm" = "| %lldkm";
+
+/* No comment provided by engineer. */
+"--h--" = "--h--";
+
+/* No comment provided by engineer. */
+"%" = "%";
+
+/* No comment provided by engineer. */
+"% | " = "% |";
+
+/* No comment provided by engineer. */
+"%@" = "%@";
+
+/* No comment provided by engineer. */
+"%lld" = "%lld";
+
+/* No comment provided by engineer. */
+"%lld km" = "%lld km";
+
+/* No comment provided by engineer. */
+"%lld%%" = "%lld%%";
+
+/* No comment provided by engineer. */
+"%lldh%@%lld" = "%lldh%@%lld";
+
+/* No comment provided by engineer. */
+"| %lld km " = "| %lld km ";
+
+/* No comment provided by engineer. */
+"| %lldkm" = "| %lldkm";
+
+/* No comment provided by engineer. */
+"Ajoutez un véhicule sur l'appli sur iPhone" = "Aggiungi un veicolo all'app su iPhone";
+
+/* No comment provided by engineer. */
+"error" = "error";
+
+/* No comment provided by engineer. */
+"Impossible de se connecter au serveur" = "Impossibile collegarsi al server.";
+
+/* No comment provided by engineer. */
+"Impossible de se connecter au serveur %@" = "Impossibile collegarsi al server. %@";
+
+/* No comment provided by engineer. */
+"Ouvrez l'appli sur l'iPhone pour synchroniser" = "Apri l'app su iPhone per sincronizzare";
+
+/* No comment provided by engineer. */
+"Rafraîchir" = "Ricaricare";
+
+/* No comment provided by engineer. */
+"Regroupe les informations de votre Renault E-Tech sur votre écran d'accueil" = "VRiunisce le informazioni della tua Renault E-Tech sulla schermata iniziale";
+
+/* No comment provided by engineer. */
+"Regroupe les informations de votre Renault E-Tech sur votre écran de verrouillage" = "Riunisce le informazioni della tua Renault E-Tech sulla schermata di blocco";
+
+/* No comment provided by engineer. */
+"Renault E-Tech" = "Renault E-Tech";
+
+/* No comment provided by engineer. */
+"Vous devez d'abord sélectionner une voiture sur l'appli" = "Devi prima selezionare un'auto sull'app";
+
+/* No comment provided by engineer. */
+"Vous devez d'abord vous connecter sur l'appli" = "Devi prima accedere all'app";
+
+"CHARGE PLANIFIÉE | " = "RICARICA PROGRAMMATA | ";
+
+"CHARGE TERMINÉE | " = "RICARICA TERMINATA | ";
+
+"EN CHARGE | " = "IN CARICA | ";
+
+"NE CHARGE PAS | " = "RICARICA FALLITA | ";
+
+"Demain" = "Domani";
+
+"Aujourd'hui" = "Oggi";
+
+"BLUE" = "BLU";
+
+"WHITE" = "BIANCO";
+
+"RED" = "ROSSO";
+
+"informationSent" = "Informazione inviata";
+
+"preHeatLaunched" = "Preriscaldamento iniziato";
+
+"error" = "Errore";
+
+"commandSendError" = "Errore di comunicazione con il server. Ritenta più tardi.";
+
+"Car" = "Auto";
+
+"launchPreHeat"= "Inizia il preriscaldamento";
+
+"launchPreHeat ${car}"= "Inizia il preriscaldamento ${car}";
+
+"areYouSureYouWantToLaunchPreheating" = "Sei sicuro di voler avviare il preriscaldamento?";
+
+"confirm" = "Conferma";
+
+"cancel" = "Annulla";

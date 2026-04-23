@@ -1,0 +1,113 @@
+/*
+  Localizable.strings
+  MyRenaultPlus
+
+  Created by Kelyaenn Lundberg on 23/09/2023.
+  
+*/
+/* No comment provided by engineer. */
+" %@" = "%@";
+
+/* No comment provided by engineer. */
+" | %lldkm" = "| %lldkm";
+
+/* No comment provided by engineer. */
+"--h--" = "--h--";
+
+/* No comment provided by engineer. */
+"%" = "%";
+
+/* No comment provided by engineer. */
+"% | " = "% |";
+
+/* No comment provided by engineer. */
+"%@" = "%@";
+
+/* No comment provided by engineer. */
+"%lld" = "%lld";
+
+/* No comment provided by engineer. */
+"%lld km" = "%lld km";
+
+/* No comment provided by engineer. */
+"%lld%%" = "%lld%%";
+
+/* No comment provided by engineer. */
+"%lldh%@%lld" = "%lldh%@%lld";
+
+/* No comment provided by engineer. */
+"| %lld km " = "| %lld km ";
+
+/* No comment provided by engineer. */
+"| %lldkm" = "| %lldkm";
+
+/* No comment provided by engineer. */
+"Ajoutez un véhicule sur l'appli sur iPhone" = "Добавете превозно средство към приложението на iPhone";
+
+/* No comment provided by engineer. */
+"error" = "error";
+
+/* No comment provided by engineer. */
+"Impossible de se connecter au serveur" = "Невъзможно свързване със сървъра";
+
+/* No comment provided by engineer. */
+"Impossible de se connecter au serveur %@" = "Невъзможно свързване със сървъра %@";
+
+/* No comment provided by engineer. */
+"Ouvrez l'appli sur l'iPhone pour synchroniser" = "Отворете приложението на iPhone за синхронизиране";
+
+/* No comment provided by engineer. */
+"Rafraîchir" = "Rafraîchir";
+
+/* No comment provided by engineer. */
+"Regroupe les informations de votre Renault E-Tech sur votre écran d'accueil" = "Обединява информация от вашия Renault E-Tech на вашия начален екран";
+
+/* No comment provided by engineer. */
+"Regroupe les informations de votre Renault E-Tech sur votre écran de verrouillage" = "Обединява информация от вашия Renault E-Tech на вашия заключен екран";
+
+/* No comment provided by engineer. */
+"Renault E-Tech" = "Renault E-Tech";
+
+/* No comment provided by engineer. */
+"Vous devez d'abord sélectionner une voiture sur l'appli" = "Първо трябва да изберете кола в приложението";
+
+/* No comment provided by engineer. */
+"Vous devez d'abord vous connecter sur l'appli" = "Първо трябва да влезете в приложението";
+
+"CHARGE PLANIFIÉE | " = "Отложено зареждане | ";
+
+"CHARGE TERMINÉE | " = "Приключено зареждане | ";
+
+"EN CHARGE | " = "Зареждане | ";
+
+"NE CHARGE PAS | " = "Не зарежда | ";
+
+"Demain" = "утре";
+
+"Aujourd'hui" = "Днес";
+
+"BLUE" = "СИН";
+
+"WHITE" = "БЯЛ";
+
+"RED" = "ЧЕРВЕН";
+
+"informationSent" = "Заявката изпратена";
+
+"preHeatLaunched" = "Подгряването започна";
+
+"error" = "Грешка";
+
+"commandSendError" = "Грешка при комуникацията със сървъра. Моля опитайте по-късно.";
+
+"Car" = "Автомобил";
+
+"launchPreHeat"= "Стартиране на подгряване на купето";
+
+"launchPreHeat ${car}"= "Стартиране на подгряване на купето ${car}";
+
+"areYouSureYouWantToLaunchPreheating" = "Сигурни ли сте, че искате да стартирате подгряването на купето?";
+
+"confirm" = "Потвърдете";
+
+"cancel" = "Отказ";

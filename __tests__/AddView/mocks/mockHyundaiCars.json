@@ -1,0 +1,20 @@
+[
+    {
+        "vin": "VIN1",
+        "name": "IONIQ",
+        "registrationNumber": "AA001AA",
+        "imageUrl": "ioniqImage"
+    },
+    {
+        "vin": "VIN2",
+        "name": "KONA",
+        "registrationNumber": "AB001AA",
+        "imageUrl": "konaImage"
+    },
+    {
+        "vin": "VIN3",
+        "name": "IONIQ5",
+        "registrationNumber": "AC001AA",
+        "imageUrl": "ioniq5Image"
+    }
+]

@@ -1,0 +1,75 @@
+{
+    "dateTime": "2024-11-05T21:46:50.7384423Z",
+    "startDateTime": "2024-11-05T22:45:26Z",
+    "delay": 59,
+    "mode": "scheduled",
+    "schedules": [
+        {
+            "id": 1,
+            "activated": true,
+            "monday": {
+                "startTime": "T03:39Z",
+                "duration": 141
+            },
+            "tuesday": null,
+            "wednesday": null,
+            "thursday": null,
+            "friday": null,
+            "saturday": null,
+            "sunday": null
+        },
+        {
+            "id": 2,
+            "activated": false,
+            "monday": {
+                "startTime": "T23:53Z",
+                "duration": 313
+            },
+            "tuesday": null,
+            "wednesday": null,
+            "thursday": null,
+            "friday": null,
+            "saturday": {
+                "startTime": "T23:53Z",
+                "duration": 313
+            },
+            "sunday": {
+                "startTime": "T23:53Z",
+                "duration": 313
+            }
+        },
+        {
+            "id": 3,
+            "activated": false,
+            "monday": null,
+            "tuesday": null,
+            "wednesday": null,
+            "thursday": null,
+            "friday": null,
+            "saturday": null,
+            "sunday": null
+        },
+        {
+            "id": 4,
+            "activated": false,
+            "monday": null,
+            "tuesday": null,
+            "wednesday": null,
+            "thursday": null,
+            "friday": null,
+            "saturday": null,
+            "sunday": null
+        },
+        {
+            "id": 5,
+            "activated": false,
+            "monday": null,
+            "tuesday": null,
+            "wednesday": null,
+            "thursday": null,
+            "friday": null,
+            "saturday": null,
+            "sunday": null
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+/*
+  Localizable.strings
+  MyRenaultPlus
+
+  Created by Kelyaenn Lundberg on 23/09/2023.
+  
+*/
+/* No comment provided by engineer. */
+" %@" = "%@";
+
+/* No comment provided by engineer. */
+" | %lldkm" = "| %lldkm";
+
+/* No comment provided by engineer. */
+"--h--" = "--h--";
+
+/* No comment provided by engineer. */
+"%" = "%";
+
+/* No comment provided by engineer. */
+"% | " = "% |";
+
+/* No comment provided by engineer. */
+"%@" = "%@";
+
+/* No comment provided by engineer. */
+"%lld" = "%lld";
+
+/* No comment provided by engineer. */
+"%lld km" = "%lld km";
+
+/* No comment provided by engineer. */
+"%lld%%" = "%lld%%";
+
+/* No comment provided by engineer. */
+"%lldh%@%lld" = "%lldh%@%lld";
+
+/* No comment provided by engineer. */
+"| %lld km " = "| %lld km ";
+
+/* No comment provided by engineer. */
+"| %lldkm" = "| %lldkm";
+
+/* No comment provided by engineer. */
+"Ajoutez un véhicule sur l'appli sur iPhone" = "Adjon hozzá járművet az iPhone alkalmazáshoz";
+
+/* No comment provided by engineer. */
+"error" = "error";
+
+/* No comment provided by engineer. */
+"Impossible de se connecter au serveur" = "Nem lehet csatlakozni a szerverhez";
+
+/* No comment provided by engineer. */
+"Impossible de se connecter au serveur %@" = "Nem lehet csatlakozni a szerverhez %@";
+
+/* No comment provided by engineer. */
+"Ouvrez l'appli sur l'iPhone pour synchroniser" = "Nyissa meg az alkalmazást iPhone-on a szinkronizáláshoz";
+
+/* No comment provided by engineer. */
+"Rafraîchir" = "Frissítés";
+
+/* No comment provided by engineer. */
+"Regroupe les informations de votre Renault E-Tech sur votre écran d'accueil" = "Összegyűjti a Renault E-Tech adatait a kezdőképernyőn";
+
+/* No comment provided by engineer. */
+"Regroupe les informations de votre Renault E-Tech sur votre écran de verrouillage" = "Összegyűjti a Renault E-Tech adatait a lezárási képernyőn";
+
+/* No comment provided by engineer. */
+"Renault E-Tech" = "Renault E-Tech";
+
+/* No comment provided by engineer. */
+"Vous devez d'abord sélectionner une voiture sur l'appli" = "Először ki kell választania egy autót az alkalmazásban";
+
+/* No comment provided by engineer. */
+"Vous devez d'abord vous connecter sur l'appli" = "Először be kell jelentkeznie az alkalmazásba";
+
+"CHARGE PLANIFIÉE | " = "TÖLTÉS ÜTEMEZVE | ";
+
+"CHARGE TERMINÉE | " = "TÖLTÉS BEFEJEZŐDÖTT | ";
+
+"EN CHARGE | " = "TÖLTÉS ALATT | ";
+
+"NE CHARGE PAS | " = "NINCS TÖLTÉS | ";
+
+"Demain" = "Holnap";
+
+"Aujourd'hui" = "Ma";
+
+"BLUE" = "KÉK";
+
+"WHITE" = "FEHÉR";
+
+"RED" = "PIROS";
+
+"informationSent" = "Elküldött információ";
+
+"preHeatLaunched" = "Előfűtés elindítva";
+
+"error" = "Hiba";
+
+"commandSendError" = "Hiba a parancs kiszolgálónak küldésekor. Kérjük, később próbálja újra.";
+
+"Car" = "Autó";
+
+"launchPreHeat"= "Előfűtés indítása";
+
+"launchPreHeat ${car}"= "Előfűtés indítása ${car}";
+
+"areYouSureYouWantToLaunchPreheating" = "Biztosan el szeretné indítani az előfűtést?";
+
+"confirm" = "Megerősít";
+
+"cancel" = "Mégse";

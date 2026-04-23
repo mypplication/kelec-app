@@ -1,0 +1,113 @@
+/*
+  Localizable.strings
+  MyRenaultPlus
+
+  Created by Kelyaenn Lundberg on 23/09/2023.
+  
+*/
+/* No comment provided by engineer. */
+" %@" = "%@";
+
+/* No comment provided by engineer. */
+" | %lldkm" = "| %lldkm";
+
+/* No comment provided by engineer. */
+"--h--" = "--h--";
+
+/* No comment provided by engineer. */
+"%" = "%";
+
+/* No comment provided by engineer. */
+"% | " = "% |";
+
+/* No comment provided by engineer. */
+"%@" = "%@";
+
+/* No comment provided by engineer. */
+"%lld" = "%lld";
+
+/* No comment provided by engineer. */
+"%lld km" = "%lld km";
+
+/* No comment provided by engineer. */
+"%lld%%" = "%lld%%";
+
+/* No comment provided by engineer. */
+"%lldh%@%lld" = "%lldh%@%lld";
+
+/* No comment provided by engineer. */
+"| %lld km " = "| %lld km ";
+
+/* No comment provided by engineer. */
+"| %lldkm" = "| %lldkm";
+
+/* No comment provided by engineer. */
+"Ajoutez un véhicule sur l'appli sur iPhone" = "Adăugați un vehicul în aplicație pe iPhone";
+
+/* No comment provided by engineer. */
+"error" = "error";
+
+/* No comment provided by engineer. */
+"Impossible de se connecter au serveur" = "Nu se poate conecta la server";
+
+/* No comment provided by engineer. */
+"Impossible de se connecter au serveur %@" = "Nu se poate conecta la server %@";
+
+/* No comment provided by engineer. */
+"Ouvrez l'appli sur l'iPhone pour synchroniser" = "Deschide aplicația pe iPhone pentru sincronizare";
+
+/* No comment provided by engineer. */
+"Rafraîchir" = "Reîmprospăta";
+
+/* No comment provided by engineer. */
+"Regroupe les informations de votre Renault E-Tech sur votre écran d'accueil" = "Colectează informațiile despre Renault E-Tech pe ecranul principal";
+
+/* No comment provided by engineer. */
+"Regroupe les informations de votre Renault E-Tech sur votre écran de verrouillage" = "Colectează informațiile despre Renault E-Tech pe ecranul de blocare";
+
+/* No comment provided by engineer. */
+"Renault E-Tech" = "Renault E-Tech";
+
+/* No comment provided by engineer. */
+"Vous devez d'abord sélectionner une voiture sur l'appli" = "Mai întâi trebuie să selectați o mașină din aplicație";
+
+/* No comment provided by engineer. */
+"Vous devez d'abord vous connecter sur l'appli" = "Trebuie mai întâi să te conectezi la aplicație";
+
+"CHARGE PLANIFIÉE | " = "ÎNCĂRCARE PROGRAMATĂ | ";
+
+"CHARGE TERMINÉE | " = "ÎNCĂRCARE ÎNCHEIATĂ | ";
+
+"EN CHARGE | " = "SE ÎNCARCĂ | ";
+
+"NE CHARGE PAS | " = "NU SE ÎNCARCĂ | ";
+
+"Demain" = "Mâine";
+
+"Aujourd'hui" = "Astăzi";
+
+"BLUE" = "ALBASTRU";
+
+"WHITE" = "ALB";
+
+"RED" = "ROŞU";
+
+"informationSent" = "Informații trimise";
+
+"preHeatLaunched" = "Preîncălzire activă";
+
+"error" = "Eroare";
+
+"commandSendError" = "Eroare la trimiterea comenzii către server. Vă rugăm să încercați din nou mai târziu.";
+
+"Car" = "Mașină";
+
+"launchPreHeat"= "Începeți preîncălzirea";
+
+"launchPreHeat ${car}" = "Începeți preîncălzirea ${car}";
+
+"areYouSureYouWantToLaunchPreheating" = "Sigur vrei să începi preîncălzirea?";
+
+"confirm" = "Confirmați";
+
+"cancel" = "Anulați";

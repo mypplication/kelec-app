@@ -1,0 +1,106 @@
+/* No comment provided by engineer. */
+" %@" = "%@";
+
+/* No comment provided by engineer. */
+" | %lldkm" = "| %lldkm";
+
+/* No comment provided by engineer. */
+"--h--" = "--h--";
+
+/* No comment provided by engineer. */
+"%" = "%";
+
+/* No comment provided by engineer. */
+"% | " = "% |";
+
+/* No comment provided by engineer. */
+"%@" = "%@";
+
+/* No comment provided by engineer. */
+"%lld" = "%lld";
+
+/* No comment provided by engineer. */
+"%lld km" = "%lld km";
+
+/* No comment provided by engineer. */
+"%lld%%" = "%lld%%";
+
+/* No comment provided by engineer. */
+"%lldh%@%lld" = "%lldh%@%lld";
+
+/* No comment provided by engineer. */
+"| %lld km " = "| %lld km ";
+
+/* No comment provided by engineer. */
+"| %lldkm" = "| %lldkm";
+
+/* No comment provided by engineer. */
+"Ajoutez un véhicule sur l'appli sur iPhone" = "Lägg till en bil på appen";
+
+/* No comment provided by engineer. */
+"error" = "error";
+
+/* No comment provided by engineer. */
+"Impossible de se connecter au serveur" = "Kunde inte ansluta till servern";
+
+/* No comment provided by engineer. */
+"Impossible de se connecter au serveur %@" = "Kunde inte ansluta till servern %@";
+
+/* No comment provided by engineer. */
+"Ouvrez l'appli sur l'iPhone pour synchroniser" = "Öppna appen på iPhone för att synkronisera";
+
+/* No comment provided by engineer. */
+"Rafraîchir" = "Uppdatera";
+
+/* No comment provided by engineer. */
+"Regroupe les informations de votre Renault E-Tech sur votre écran d'accueil" = "Visar information om din E-Tech Renault på din hemskärm";
+
+/* No comment provided by engineer. */
+"Regroupe les informations de votre Renault E-Tech sur votre écran de verrouillage" = "Visar information om din E-Tech Renault på din låsskärm";
+
+/* No comment provided by engineer. */
+"Renault E-Tech" = "Renault E-Tech";
+
+/* No comment provided by engineer. */
+"Vous devez d'abord sélectionner une voiture sur l'appli" = "Du måste först lägg till en bil på appen";
+
+/* No comment provided by engineer. */
+"Vous devez d'abord vous connecter sur l'appli" = "Du måste först logga in på appen";
+
+"CHARGE PLANIFIÉE | " = "SCHEMALAGD LADDNING | ";
+
+"CHARGE TERMINÉE | " = "LADDNINGEN KLAR | ";
+
+"EN CHARGE | " = "LADDAR | ";
+
+"NE CHARGE PAS | " = "LADDAR INTE | ";
+
+"Demain" = "Imorgon";
+
+"Aujourd'hui" = "Idag";
+
+"BLUE" = "BLÅ";
+
+"WHITE" = "VIT";
+
+"RED" = "RÖD";
+
+"informationSent" = "Information skickades";
+
+"preHeatLaunched" = "Förvärmningen startats";
+
+"error" = "Fel";
+
+"commandSendError" = "Fel när kommandot skickades till servern. Vänligen försök igen senare.";
+
+"Car" = "Bil";
+
+"launchPreHeat" = "Starta förvärmingen";
+
+"launchPreHeat ${car}" = "Starta förvärmingen ${car}";
+
+"areYouSureYouWantToLaunchPreheating" = "Är du säker på att du vill starta förvärmningen?";
+
+"confirm" = "Bekräfta";
+
+"cancel" = "Avbryt";

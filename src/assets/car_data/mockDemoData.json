@@ -1,0 +1,106 @@
+{
+  "battery": {
+    "timestamp": "2024-03-30T19:28:15Z",
+    "batteryLevel": 56,
+    "batteryTemperature": 20,
+    "batteryAutonomy": 202,
+    "batteryCapacity": 0,
+    "batteryAvailableEnergy": 34,
+    "plugStatus": 0,
+    "chargingStatus": 0.4,
+    "chargingRemainingTime": 51,
+    "chargingInstantaneousPower": 45.3
+  },
+  "cockpit": {
+    "fuelQuantity": 0.0,
+    "totalMileage": 30995.16015625
+  },
+  "map": {
+    "lastUpdateTime": "2024-04-15T08:33:26.676Z",
+    "gpsLatitude": 10.1,
+    "gpsLongitude": 5.5
+  },
+  "charges": [
+    {
+      "chargeStartDate": "2023-07-21T20:39:16Z",
+      "chargeEndDate": "2023-07-22T03:06:48Z",
+      "chargeDuration": 388,
+      "chargeStartBatteryLevel": 23,
+      "chargeEndBatteryLevel": 45,
+      "chargeEnergyRecovered": 23.2,
+      "chargeEndStatus": "ok",
+      "mileageAtStart": "30141"
+    },
+    {
+      "chargeStartDate": "2023-08-21T20:39:16Z",
+      "chargeEndDate": "2023-08-22T03:06:48Z",
+      "chargeDuration": 10,
+      "chargeStartBatteryLevel": 23,
+      "chargeEndBatteryLevel": 45,
+      "chargeEnergyRecovered": 23.2,
+      "chargeEndStatus": "ok",
+      "mileageAtStart": "30151"
+    },
+    {
+      "chargeStartDate": "2023-09-21T20:39:16Z",
+      "chargeEndDate": "2023-09-22T03:06:48Z",
+      "chargeDuration": 388,
+      "chargeStartBatteryLevel": 23,
+      "chargeEndBatteryLevel": 45,
+      "chargeEnergyRecovered": 23.2,
+      "chargeEndStatus": "ok",
+      "mileageAtStart": "30161"
+    },
+    {
+      "chargeStartDate": "2023-10-07T20:39:16Z",
+      "chargeEndDate": "2023-10-08T03:06:48Z",
+      "chargeDuration": 388,
+      "chargeStartBatteryLevel": 23,
+      "chargeEndBatteryLevel": 45,
+      "chargeEnergyRecovered": 23.2,
+      "chargeEndStatus": "ok",
+      "mileageAtStart": "30171"
+    },
+    {
+      "chargeStartDate": "2023-10-21T20:39:16Z",
+      "chargeEndDate": "2023-10-22T03:06:48Z",
+      "chargeDuration": 388,
+      "chargeStartBatteryLevel": 14,
+      "chargeEndBatteryLevel": 98,
+      "chargeEnergyRecovered": 23.2,
+      "chargeEndStatus": "ok",
+      "mileageAtStart": "30181"
+    },
+    {
+      "chargeStartDate": "2023-11-21T20:39:16Z",
+      "chargeEndDate": "2023-11-22T03:06:48Z",
+      "chargeDuration": 388,
+      "chargeStartBatteryLevel": 10,
+      "chargeEndBatteryLevel": 30,
+      "chargeEnergyRecovered": 23.2,
+      "chargeEndStatus": "ok",
+      "mileageAtStart": "30181"
+    },
+    {
+      "chargeStartDate": "2023-12-22T17:50:43Z",
+      "chargeEndDate": "2023-12-22T18:45:30Z",
+      "chargeDuration": 55,
+      "chargeStartBatteryLevel": 30,
+      "chargeEndBatteryLevel": 60,
+      "chargeEnergyRecovered": 50.0,
+      "chargeEndStatus": "ok",
+      "mileageAtStart": "30185",
+      "inaccurateMileage": true
+    },
+    {
+      "chargeStartDate": "2024-12-23T14:59:12Z",
+      "chargeEndDate": "2024-12-24T00:01:25Z",
+      "chargeDuration": 543,
+      "chargeStartBatteryLevel": 60,
+      "chargeEndBatteryLevel": 100,
+      "chargeEnergyRecovered": 32.25,
+      "chargeEndStatus": "ok",
+      "mileageAtStart": "30195"
+    }
+  ]
+}

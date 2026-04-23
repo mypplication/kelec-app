@@ -1,0 +1,113 @@
+/*
+  Localizable.strings
+  MyRenaultPlus
+
+  Created by Kelyaenn Lundberg on 23/09/2023.
+  
+*/
+/* No comment provided by engineer. */
+" %@" = "%@";
+
+/* No comment provided by engineer. */
+" | %lldkm" = "| %lldkm";
+
+/* No comment provided by engineer. */
+"--h--" = "--h--";
+
+/* No comment provided by engineer. */
+"%" = "%";
+
+/* No comment provided by engineer. */
+"% | " = "% |";
+
+/* No comment provided by engineer. */
+"%@" = "%@";
+
+/* No comment provided by engineer. */
+"%lld" = "%lld";
+
+/* No comment provided by engineer. */
+"%lld km" = "%lld km";
+
+/* No comment provided by engineer. */
+"%lld%%" = "%lld%%";
+
+/* No comment provided by engineer. */
+"%lldh%@%lld" = "%lldh%@%lld";
+
+/* No comment provided by engineer. */
+"| %lld km " = "| %lld km ";
+
+/* No comment provided by engineer. */
+"| %lldkm" = "| %lldkm";
+
+/* No comment provided by engineer. */
+"Ajoutez un véhicule sur l'appli sur iPhone" = "Adicione um veículo ao aplicativo no iPhone";
+
+/* No comment provided by engineer. */
+"error" = "error";
+
+/* No comment provided by engineer. */
+"Impossible de se connecter au serveur" = "Impossível conectar ao servidor";
+
+/* No comment provided by engineer. */
+"Impossible de se connecter au serveur %@" = "Impossível conectar ao servidor %@";
+
+/* No comment provided by engineer. */
+"Ouvrez l'appli sur l'iPhone pour synchroniser" = "Abra o aplicativo no iPhone para sincronizar";
+
+/* No comment provided by engineer. */
+"Rafraîchir" = "Atualizar";
+
+/* No comment provided by engineer. */
+"Regroupe les informations de votre Renault E-Tech sur votre écran d'accueil" = "Reúne informações do seu Renault E-Tech na tela inicial";
+
+/* No comment provided by engineer. */
+"Regroupe les informations de votre Renault E-Tech sur votre écran de verrouillage" = "Reúne informações do seu Renault E-Tech na tela de bloqueio";
+
+/* No comment provided by engineer. */
+"Renault E-Tech" = "Renault E-Tech";
+
+/* No comment provided by engineer. */
+"Vous devez d'abord sélectionner une voiture sur l'appli" = "Você deve primeiro selecionar um carro no aplicativo";
+
+/* No comment provided by engineer. */
+"Vous devez d'abord vous connecter sur l'appli" = "Você deve primeiro fazer login no aplicativo";
+
+"CHARGE PLANIFIÉE | " = "CARGA AGENDADA | ";
+
+"CHARGE TERMINÉE | " = "CARGA TERMINADA | ";
+
+"EN CHARGE | " = "CARREGANDO | ";
+
+"NE CHARGE PAS | " = "NÃO CARREGANDO | ";
+
+"Demain" = "Amanhã";
+
+"Aujourd'hui" = "Hoje";
+
+"BLUE" = "AZUL";
+
+"WHITE" = "BRANCO";
+
+"RED" = "VERMELHO";
+
+"informationSent" = "Informação enviada";
+
+"preHeatLaunched" = "Pré-aquecimento iniciado";
+
+"error" = "Erro";
+
+"commandSendError" = "Erro ao enviar o comando para o servidor. Tente novamente mais tarde.";
+
+"Car" = "Carro";
+
+"launchPreHeat"= "Iniciar pré-aquecimento";
+
+"launchPreHeat ${car}"= "Iniciar pré-aquecimento ${car}";
+
+"areYouSureYouWantToLaunchPreheating" = "Tem certeza de que deseja iniciar o pré-aquecimento?";
+
+"confirm" = "Confirmar";
+
+"cancel" = "Cancelar";

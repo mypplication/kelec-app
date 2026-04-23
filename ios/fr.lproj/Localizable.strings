@@ -1,0 +1,113 @@
+/*
+  Localizable.strings
+  MyRenaultPlus
+
+  Created by Kelyaenn Lundberg on 23/09/2023.
+  
+*/
+/* No comment provided by engineer. */
+" %@" = "%@";
+
+/* No comment provided by engineer. */
+" | %lldkm" = "| %lldkm";
+
+/* No comment provided by engineer. */
+"--h--" = "--h--";
+
+/* No comment provided by engineer. */
+"%" = "%";
+
+/* No comment provided by engineer. */
+"% | " = "% |";
+
+/* No comment provided by engineer. */
+"%@" = "%@";
+
+/* No comment provided by engineer. */
+"%lld" = "%lld";
+
+/* No comment provided by engineer. */
+"%lld km" = "%lld km";
+
+/* No comment provided by engineer. */
+"%lld%%" = "%lld%%";
+
+/* No comment provided by engineer. */
+"%lldh%@%lld" = "%lldh%@%lld";
+
+/* No comment provided by engineer. */
+"| %lld km " = "| %lld km ";
+
+/* No comment provided by engineer. */
+"| %lldkm" = "| %lldkm";
+
+/* No comment provided by engineer. */
+"Ajoutez un véhicule sur l'appli sur iPhone" = "Ajoutez un véhicule sur l'appli sur iPhone";
+
+/* No comment provided by engineer. */
+"error" = "error";
+
+/* No comment provided by engineer. */
+"Impossible de se connecter au serveur" = "Impossible de se connecter au serveur";
+
+/* No comment provided by engineer. */
+"Impossible de se connecter au serveur %@" = "Impossible de se connecter au serveur %@";
+
+/* No comment provided by engineer. */
+"Ouvrez l'appli sur l'iPhone pour synchroniser" = "Ouvrez l'appli sur l'iPhone pour synchroniser";
+
+/* No comment provided by engineer. */
+"Rafraîchir" = "Rafraîchir";
+
+/* No comment provided by engineer. */
+"Regroupe les informations de votre Renault E-Tech sur votre écran d'accueil" = "Regroupe les informations de votre Renault E-Tech sur votre écran d'accueil";
+
+/* No comment provided by engineer. */
+"Regroupe les informations de votre Renault E-Tech sur votre écran de verrouillage" = "Regroupe les informations de votre Renault E-Tech sur votre écran de verrouillage";
+
+/* No comment provided by engineer. */
+"Renault E-Tech" = "Renault E-Tech";
+
+/* No comment provided by engineer. */
+"Vous devez d'abord sélectionner une voiture sur l'appli" = "Vous devez d'abord sélectionner une voiture sur l'appli";
+
+/* No comment provided by engineer. */
+"Vous devez d'abord vous connecter sur l'appli" = "Vous devez d'abord vous connecter sur l'appli";
+
+"CHARGE PLANIFIÉE | " = "CHARGE PLANIFIÉE |  ";
+
+"CHARGE TERMINÉE | " = "CHARGE TERMINÉE | ";
+
+"EN CHARGE | " = "EN CHARGE | ";
+
+"NE CHARGE PAS | " = "NE CHARGE PAS | ";
+
+"Demain" = "Demain";
+
+"Aujourd'hui" = "Aujourd'hui";
+
+"BLUE" = "BLEU";
+
+"WHITE" = "BLANC";
+
+"RED" = "ROUGE";
+
+"informationSent" = "Informations envoyées";
+
+"preHeatLaunched" = "Préchauffage actif";
+
+"error" = "Erreur";
+
+"commandSendError" = "Erreur lors de l'envoi de la commande au serveur. Veuillez réessayer plus tard.";
+
+"Car" = "Voiture";
+
+"launchPreHeat"= "Lancer le préchauffage";
+
+"launchPreHeat ${car}" = "Lancer le préchauffage ${car}";
+
+"areYouSureYouWantToLaunchPreheating" = "Êtes-vous sûr de vouloir lancer le préchauffage ?";
+
+"confirm" = "Confirmer";
+
+"cancel" = "Annuler";
