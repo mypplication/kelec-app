@@ -1,5 +1,5 @@
+import AppPreferences from "../appPreferences/model/appPreferences";
 import { CarMaker } from "../clients/accounts/account";
-import AppPreferences from "@kelec/app-preferences";
 import LanguageHandler from "../model/localization/languageHandler";
 
 const coloursAssets = {
@@ -146,8 +146,6 @@ const getCarMakerLogo = (brand: CarMaker, isDarkMode: boolean): any => {
             return isDarkMode ? require('../../assets/logos/car_makers/renault_white.png') : require('../../assets/logos/car_makers/renault_black.png');
         case CarMaker.HYUNDAI:
             return isDarkMode ? require('../../assets/logos/car_makers/hyundai_white.png') : require('../../assets/logos/car_makers/hyundai_black.png');
-        case CarMaker.FIAT:
-            return isDarkMode ? require('../../assets/logos/car_makers/fiat_white.png') : require('../../assets/logos/car_makers/fiat_black.png');
         case CarMaker.DACIA:
             return isDarkMode ? require('../../assets/logos/car_makers/dacia_white.png') : require('../../assets/logos/car_makers/dacia_black.png');
         case CarMaker.ALPINE:

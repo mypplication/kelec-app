@@ -7,7 +7,7 @@ import MainContext from "../../../../../lib/Contexts/MainContext";
 import { ChargeIndex } from "../../../../../lib/clients/apiHandlers/renaultChargesHandler";
 import { fontFamilyBold, fontWeightBold } from "../../../../../lib/graphics/commonStyle";
 import RenaultCharge from "../../../../../lib/clients/apiHandlers/renaultCharges/RenaultCharge";
-import AppPreferences from "@kelec/app-preferences";
+import AppPreferences from "../../../../../lib/appPreferences/model/appPreferences";
 
 type ChargeMonthHeaderProps = {
     readonly chargeIndex: ChargeIndex;

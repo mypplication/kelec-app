@@ -5,13 +5,13 @@ import RenaultAccount from "../../lib/clients/accounts/renaultAccount";
 import HyundaiAccount from "../../lib/clients/accounts/hyundaiAccount";
 import ApiHandler from "../clients/apiHandlers/apiHandler";
 import HyundaiApiHandler from "../clients/apiHandlers/hyundaiApiHandler";
-import AppPreferences from "@kelec/app-preferences";
 import CarType, { CarTypeInterface } from "../clients/cars/carTypes/carType";
 import RenaultApiHandler from "../clients/apiHandlers/renaultApiHandler";
 import RenaultCharge from "../clients/apiHandlers/renaultCharges/RenaultCharge";
 import UserAccount, { UserAccountInterface } from "../clients/accounts/userAccount";
 import CarModel, { CarModelInterface } from "../clients/cars/carModel";
 import DemoAccount from "../clients/accounts/demoAccount";
+import AppPreferences from "../appPreferences/model/appPreferences";
 
 enum CarStorageLocation {
     IMAGE = '/image',

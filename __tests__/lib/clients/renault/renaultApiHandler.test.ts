@@ -1,6 +1,6 @@
 
+import AppPreferences from "../../../../src/lib/appPreferences/model/appPreferences";
 import RenaultApiHandler from "../../../../src/lib/clients/apiHandlers/renaultApiHandler";
-import AppPreferences from "@kelec/app-preferences";
 
 const mockBatteryStatus = require('../../../CarView/mocks/mockRenaultBattery.json');
 const mockBatteryHandlerStatus = {

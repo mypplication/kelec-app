@@ -1,5 +1,5 @@
+import AppPreferences from "../../appPreferences/model/appPreferences";
 import { formatNumberWithLeadingZero } from "../../graphics/utils";
-import AppPreferences from "@kelec/app-preferences";
 import { Filter, FilterDate, FilterName, FilterNumerical } from "../../model/filters/FiltersStruct";
 import RenaultCharge from "./renaultCharges/RenaultCharge";
 

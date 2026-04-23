@@ -1,5 +1,5 @@
+import AppPreferences from "../../appPreferences/model/appPreferences";
 import { getDistance } from "../../graphics/utils";
-import AppPreferences from "@kelec/app-preferences";
 import { BatteryStatus, ChargeSettingsStatus, CockpitStatus, HVACStatus, MapLocationStatus, RenaultStatus } from "../carMakers/renaultClient";
 import { HVACStatusEnum } from "../carMakers/renaultEnums";
 import CarType, { CarAvailableModels } from "../cars/carTypes/carType";
@@ -210,7 +210,7 @@ class RenaultApiHandler implements ApiHandler {
         const hvacStatus = this.apiHVACStatus?.apiData?.hvacStatus ?? HVACStatusEnum.OFF;
         return hvacStatus == HVACStatusEnum.ON;
     }
-    
+
     getMinimumHvacSOC(): number | null {
         return this.apiHVACStatus?.apiData?.socThreshold ?? null;
     }

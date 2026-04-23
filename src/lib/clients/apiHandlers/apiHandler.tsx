@@ -1,4 +1,5 @@
-import AppPreferences from "@kelec/app-preferences";
+
+import AppPreferences from "../../appPreferences/model/appPreferences";
 import { CarFetchStatus } from "../accounts/account";
 import { ChargeSettingsStatus } from "../carMakers/renaultClient";
 import CarType from "../cars/carTypes/carType";
@@ -43,7 +44,7 @@ interface ApiHandler {
     getChargingSettings(): ChargeSettingsStatus | null;
 
     // for hvac
-    getMinimumHvacSOC():  number | null;
+    getMinimumHvacSOC(): number | null;
 }
 
 

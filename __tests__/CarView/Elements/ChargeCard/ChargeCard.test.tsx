@@ -3,7 +3,7 @@ import ChargeCard from "../../../../src/screen/loggedIn/CarsTab/CarView/ChargesV
 import RenaultCharge from "../../../../src/lib/clients/apiHandlers/renaultCharges/RenaultCharge";
 import CarType, { CarTypeInterface } from "../../../../src/lib/clients/cars/carTypes/carType";
 import LanguageHandler from "../../../../src/lib/model/localization/languageHandler";
-import AppPreferences from "@kelec/app-preferences";
+import AppPreferences from "../../../../src/lib/appPreferences/model/appPreferences";
 import MainContext, { MainContextType } from "../../../../src/lib/Contexts/MainContext";
 import { V2GApiSession } from "../../../../src/lib/clients/carMakers/renault/v2gApiResponse";
 

@@ -1,9 +1,9 @@
 import StorageHandler from "../../lib/storage/storageHandler";
 import LanguageHandler from "../../lib/model/localization/languageHandler";
 import { createContext } from "react";
-import AppPreferences from "@kelec/app-preferences";
 import UserAccount from "../clients/accounts/userAccount";
 import { ViewsAvailable } from "../../Main";
+import AppPreferences from "../appPreferences/model/appPreferences";
 
 const MainContext = createContext({
     languageHandler: null as unknown as LanguageHandler,

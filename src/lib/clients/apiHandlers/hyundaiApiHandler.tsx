@@ -1,5 +1,5 @@
+import AppPreferences from "../../appPreferences/model/appPreferences";
 import { getDistance } from "../../graphics/utils";
-import AppPreferences from "@kelec/app-preferences";
 import { HyundaiStatus } from "../carMakers/hyundaiClient";
 import CarType from "../cars/carTypes/carType";
 import ApiHandler from "./apiHandler";

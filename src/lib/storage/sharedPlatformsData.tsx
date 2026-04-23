@@ -1,7 +1,7 @@
 import { NativeModules, Platform } from "react-native";
 import * as Watch from 'react-native-watch-connectivity';
 import UserAccount from "../clients/accounts/userAccount";
-import AppPreferences from "@kelec/app-preferences";
+import AppPreferences from "../appPreferences/model/appPreferences";
 const { RNSharedWidget } = NativeModules;
 const SharedStorage = NativeModules.SharedStorage;
 

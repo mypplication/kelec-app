@@ -1,6 +1,7 @@
 
+import AppPreferences from "../../../../src/lib/appPreferences/model/appPreferences";
 import HyundaiApiHandler from "../../../../src/lib/clients/apiHandlers/hyundaiApiHandler";
-import AppPreferences from "@kelec/app-preferences";
+
 
 const mockApiData = require('../../../CarView/mocks/mockHyundaiApiData.json');
 const mockStatus = {

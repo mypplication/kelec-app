@@ -5,11 +5,11 @@ import MainContext from "./lib/Contexts/MainContext";
 import LanguageHandler from "./lib/model/localization/languageHandler";
 import Home from "./screen/loggedIn/Home";
 import StorageHandler from "./lib/storage/storageHandler";
-import AppPreferences from '@kelec/app-preferences';
 import UserAccount from "./lib/clients/accounts/userAccount";
 import WelcomeScreen from "./WelcomeScreen";
 import { AppErrorBoundary } from "./AppErrorBoundary";
 import LoginEntryView from "./packages/kelec-login/views/LoginEntryView";
+import AppPreferences from "./lib/appPreferences/model/appPreferences";
 
 export enum ViewsAvailable {
     LOGIN = 'LOGIN',
