@@ -1,4 +1,4 @@
-import { Modal, useColorScheme, View } from "react-native";
+import { Modal, View } from "react-native";
 import { useEffect, useMemo, useRef, useState } from "react";
 import FullScreenLoading from "./FullScreenLoading";
 import MainContext from "./lib/Contexts/MainContext";
@@ -12,8 +12,8 @@ import LoginEntryView from "./packages/kelec-login/views/LoginEntryView";
 import AppPreferences from "./lib/appPreferences/model/appPreferences";
 import KelecApiHandler from "./lib/clients/kelec-api/kelecApiHandler";
 import Text from "./screen/Common/CustomText";
-import { getWhiteColour } from "./lib/graphics/utils";
 import { SafeAreaProvider } from "react-native-safe-area-context";
+import { useTheme } from "@react-navigation/native";
 
 export enum ViewsAvailable {
     LOGIN = 'LOGIN',
@@ -22,7 +22,7 @@ export enum ViewsAvailable {
 }
 
 function Main(): React.JSX.Element {
-    const isDarkMode = useColorScheme() === 'dark';
+    const theme = useTheme();
 
     const [_, setTest] = useState<string>(''); // NOSONAR
 
@@ -98,7 +98,6 @@ function Main(): React.JSX.Element {
     };
 
 
-
     // to get the current view of the app according to the current state
     const getCurrentView = (): React.JSX.Element => {
         switch (currentView) {
@@ -108,7 +107,8 @@ function Main(): React.JSX.Element {
                 return <Home />;
             case ViewsAvailable.LOADING:
                 return <FullScreenLoading />;
-        };
+        }
+        ;
     };
 
     // the values of the main context used by the children props
@@ -130,7 +130,8 @@ function Main(): React.JSX.Element {
                     visible={!!message}
                     animationType='fade'
                     transparent
-                    onRequestClose={() => { }}
+                    onRequestClose={() => {
+                    }}
                 >
                     <SafeAreaProvider>
                         <View
@@ -142,7 +143,7 @@ function Main(): React.JSX.Element {
                                 alignItems: 'center'
                             }}>
                             <View style={{
-                                backgroundColor: getWhiteColour(isDarkMode),
+                                backgroundColor: theme.colors.background,
                                 padding: 20,
                                 borderRadius: 10
                             }}>
@@ -156,7 +157,7 @@ function Main(): React.JSX.Element {
                         <WelcomeScreen />
                     </SafeAreaProvider>
                 </Modal>
-                <View testID='appView' style={{ flex: 1 }} >
+                <View testID='appView' style={{ flex: 1, backgroundColor: theme.colors.background }}>
                     {getCurrentView()}
                 </View>
             </MainContext.Provider>

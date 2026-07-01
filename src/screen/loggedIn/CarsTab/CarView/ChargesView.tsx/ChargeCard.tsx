@@ -6,10 +6,9 @@ import { useContext, useState } from "react";
 import MainContext from "../../../../../lib/Contexts/MainContext";
 import { convertDateForChargeHistory, convertHoursForChargeHistory, formatNumberWithSpaces, getBlackColour, getDistance, getGrayBackgroundColour, getWhiteColour } from "../../../../../lib/graphics/utils";
 import Icon from 'react-native-vector-icons/MaterialIcons';
-import commonStyles, { fontFamilyBold, fontWeightBold } from "../../../../../lib/graphics/commonStyle";
+import { fontFamilyBold, fontWeightBold } from "../../../../../lib/graphics/commonStyle";
 import CarsViewContext from "../../../../../lib/Contexts/CarsViewContext";
-import BigButton, { ButtonColours } from "../../../../Common/BigButton";
-import { SafeAreaView } from "react-native-safe-area-context";
+import { useTheme } from '@react-navigation/native';
 import BottomSheet from "../../../../Common/bottomSheet/BottomSheet";
 
 type ChargeCardProps = {
@@ -20,6 +19,7 @@ type ChargeCardProps = {
 function ChargeCard({ charge, carType }: ChargeCardProps): React.JSX.Element {
 
     const isDarkMode = useColorScheme() === 'dark';
+    const theme = useTheme()
 
     const { appPreferences, languageHandler } = useContext(MainContext);
     const { handleModalAnim } = useContext(CarsViewContext);
@@ -138,7 +138,7 @@ function ChargeCard({ charge, carType }: ChargeCardProps): React.JSX.Element {
                 <View style={{ backgroundColor: 'lightgray', width: '100%', borderRadius: 100, height: 10 }} />
                 <View testID={'chargingBar'} style={
                     {
-                        backgroundColor: charge.isV2G ? 'rgb(255,165,0)' : 'rgb(39,205,65)',
+                        backgroundColor: charge.isV2G ? 'rgb(255,165,0)' : theme.colors.powerGreen,
                         borderRadius: 100, position: 'absolute', height: 10,
                         width: getBarWidth(Math.max(charge.getEndPercentage(), charge.getStartPercentage()))
                     }} />

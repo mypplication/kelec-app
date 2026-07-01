@@ -1,22 +1,15 @@
 import AppPreferences from "../appPreferences/model/appPreferences";
 import { CarMaker } from "../clients/accounts/account";
 import LanguageHandler from "../model/localization/languageHandler";
+import { Palette } from '../../../theme/_palette';
 
 const coloursAssets = {
-    greyBackground: 'rgb(28,28,28)',
-    interfaceBackground: 'rgb(240,241,243)',
+    greyBackground: Palette.gray_200,
 }
 
-const getBlackGrayBackgroundColour = (isDarkMode: boolean) => {
-    return isDarkMode ? coloursAssets.greyBackground : 'black';
-}
 
 const getGrayBackgroundColour = (isDarkMode: boolean) => {
     return isDarkMode ? coloursAssets.greyBackground : 'white';
-}
-
-const getGrayWhiteBackgroundColour = (isDarkMode: boolean) => {
-    return isDarkMode ? coloursAssets.greyBackground : 'rgb(240,241,243)';
 }
 
 const getGrayColour = (isDarkMode: boolean) => {
@@ -29,11 +22,6 @@ const getWhiteColour = (isDarkMode: boolean) => {
 
 const getBlackColour = (isDarkMode: boolean) => {
     return isDarkMode ? 'white' : 'black';
-}
-
-const getMainInterfaceBackground = (isDarkMode: boolean) => {
-    // main screen background
-    return isDarkMode ? 'black' : coloursAssets.interfaceBackground;
 }
 
 const getBlueText = (isDarkMode: boolean) => {
@@ -174,12 +162,10 @@ const getChargingBarColour = (isV2G: boolean, opacity: number = 1) => {
 }
 
 export {
-    getBlackGrayBackgroundColour,
     getBlackColour,
     getWhiteColour,
     getGrayBackgroundColour,
     getGrayColour,
-    getMainInterfaceBackground,
     coloursAssets,
     formatPlate,
     getBlueText,
@@ -192,7 +178,6 @@ export {
     capitlizeFirstLetter,
     getCarMakerLogo,
     getAccentOrange,
-    getGrayWhiteBackgroundColour,
     formatNumberWithSpaces,
     getDistance,
     getChargingBarColour

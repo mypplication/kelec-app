@@ -4,7 +4,7 @@ import { useContext, useRef } from "react";
 import MainContext from "../../../lib/Contexts/MainContext";
 import CarView from "./CarView/CarView";
 import createNativeStackNavigator from '../../../lib/graphics/navigation';
-import { NavigationContainer, NavigationIndependentTree } from "@react-navigation/native";
+import { NavigationContainer, NavigationIndependentTree, useTheme } from "@react-navigation/native";
 import ChargesView from "./CarView/ChargesView.tsx/ChargesView";
 import SendCoffeeCard from "./CarView/Elements/SendCoffee";
 import FullScreenMapView from "./CarView/Elements/Map/FullScreenMapView";
@@ -35,6 +35,7 @@ export type CarsViewParamList = {
 
 function CarsPageView(): React.JSX.Element {
     const { currentUser } = useContext(MainContext);
+    const theme = useTheme()
 
     const Stack = createNativeStackNavigator<CarsViewParamList>();
 
@@ -48,7 +49,7 @@ function CarsPageView(): React.JSX.Element {
                     const carModel = account.getCar()!;
                     return (
                       <NavigationIndependentTree key={carModel.getVin()}>
-                        <NavigationContainer>
+                        <NavigationContainer theme={theme}>
                           <Stack.Navigator
                             screenOptions={{
                               headerShown: false,

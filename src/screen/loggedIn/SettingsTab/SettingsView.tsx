@@ -9,23 +9,16 @@ import {
     useColorScheme,
     View
 } from "react-native";
-
 import commonStyles from '../../../lib/graphics/commonStyle';
 import Icon from "react-native-vector-icons/MaterialIcons";
-
 import {
     getBlackColour,
     getGrayBackgroundColour,
-    getMainInterfaceBackground,
     getTopDarkColour,
 } from '../../../lib/graphics/utils';
-
 import MainContext from '../../../lib/Contexts/MainContext';
-
 import Text from '../../Common/CustomText';
-
 import SettingRow, { OptionType } from './SettingRow';
-
 import {
     getWidgetsLogs,
     saveNativePreferences,
@@ -34,10 +27,11 @@ import {
 
 import { DocumentDirectoryPath, writeFile } from 'react-native-fs';
 import DebugZoneView from "./DebugZone/DebugZoneView";
-import BigButton, { ButtonColours } from "../../Common/BigButton";
 import TopSettingsView from "./TopSettingsView";
 import { RenaultCredentials } from "../../../lib/clients/carMakers/renaultCredentials";
-import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
+import { SafeAreaView } from "react-native-safe-area-context";
+import { useTheme } from '@react-navigation/native';
+import Button from '../../../packages/kelec-model/view/Button';
 
 type Setting = {
     title: string;
@@ -368,9 +362,9 @@ function SettingsView(): React.JSX.Element {
                     setShowDebugZone(false);
                 }}
             >
-                <SafeAreaProvider>
-                    <DebugZoneView setShowDebugZone={setShowDebugZone} />
-                </SafeAreaProvider>
+
+                <DebugZoneView setShowDebugZone={setShowDebugZone} />
+
             </Modal>
             {/* temp for debug zone*/}
             {/* modal for timezime selection */}
@@ -381,8 +375,7 @@ function SettingsView(): React.JSX.Element {
                     setShowSelectTimeZoneModal(false);
                 }}
             >
-                <SafeAreaProvider>
-                    <SafeAreaView
+               <SafeAreaView
                         style={
                             [
                                 {
@@ -401,21 +394,19 @@ function SettingsView(): React.JSX.Element {
                             </ScrollView>
                         </View>
                         <View style={{ paddingHorizontal: 15, marginBottom: 20 }}>
-                            <BigButton
+                            <Button
                                 testID='addBackButton'
                                 text={languageHandler.getTranslation("back")}
                                 onPress={() => setShowSelectTimeZoneModal(false)}
-                                colour={ButtonColours.PRIMARY}
                             />
                         </View>
                     </SafeAreaView>
-                </SafeAreaProvider>
             </Modal>
             <View
                 testID='settingsView'
-                style={[commonStyles.flex, { backgroundColor: getMainInterfaceBackground(isDarkMode) }]}>
+                style={[commonStyles.flex, { backgroundColor: useTheme().colors.background }]}>
 
-                <ScrollView style={[commonStyles.flex, styles.mainWrapper, { backgroundColor: getMainInterfaceBackground(isDarkMode) }]}>
+                <ScrollView style={[commonStyles.flex, styles.mainWrapper, { backgroundColor: useTheme().colors.background  }]}>
                     <TopSettingsView />
 
                     <View style={[styles.elements, { paddingHorizontal: 15 }]}>
